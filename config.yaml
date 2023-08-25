@@ -1,0 +1,11 @@
+data_dir: /fs/cbsuvlaminck2/workdir/bmg224/cfRNA_FISH/2023_08_11_ERCC_exRNA_dilution/data
+mask_thresh: 25000
+mini_distance: 2
+footprint: [3,3,2]
+scripts_dir: /workdir/ls764/cfRNA/image_analysis
+segmentation_script: segmentation.py
+output_dir: /workdir/ls764/cfRNA/image_analysis/output
+sample_name: [2023_08_11_ERCC_exRNA_dilution_ercc_10x_fov_01]
+raw_fmt: '{sample_name}.czi'
+seg_fmt: '{sample_name}_M_{M}_seg.npy'
+props_fmt: '{sample_name}_M_{M}_props.npy'

@@ -1,0 +1,6 @@
+.snakemake
+envs
+output
+prop.csv
+seg.py.npy
+original.segment.ipynb
